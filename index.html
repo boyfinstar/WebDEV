@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="test_Unsemantic_style.css" />
+        <link rel="stylesheet" href="style2.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+            rel="stylesheet"
+        />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="header"><span>un</span>semantic</div>
+
+        <section class="item">
+            <div class="grid-5 home">Home</div>
+            <div class="grid-5 about">About</div>
+            <div class="grid-5 demo">Demo</div>
+            <div class="grid-15 css_doc">CSS Documentation</div>
+            <div class="grid-15 sass_doc">Sass Documentation</div>
+            <div class="grid-50 blank"></div>
+        </section>
+
+        <!--------------DOWNLOAD SECTION ------------------------------------->
+
+        <section class="section">
+            <div class="grid-45 download">Download here</div>
+            <div class="grid-45 repo">Github Repo</div>
+        </section>
+        <!-----------Example & USAGE-------------------------------->
+        <section class="content">
+            <div class="grid-container">
+                <p class="grid-45 para1">What is it?</p>
+                <p class="grid-45 para2">Example Usage</p>
+            </div>
+            <main>
+                <div class="grid-35 usage"></div>
+                <div class="grid-35 example">
+                    <pre class="box">
+    &lt;div class="grid-container"&gt;
+        &lt;div class="grid-25"&gt;
+            I am 25% wide.
+        &lt;/div&gt;
+        &lt;div class="grid-50"&gt;
+            I am 50% wide.
+        &lt;/div&gt;
+        &lt;div class="grid-25"&gt;
+            I am 25% wide.
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+                    </pre>
+                </div>
+                <div class="grid-20 ad"></div>
+            </main>
+        </section>
+        <!--------------Successor ---------------------------->
+        <section class="grid-100 successor">
+            <div class="headers1 grid-95">
+                <div class="grid-30">Successor to 960.gs</div>
+                <div class="grid-30">SE-Oh?</div>
+                <div class="grid-30">Built with Sass</div>
+            </div>
+            <div class="grid-95">
+                <div class="content1 grid-30">
+                    Unsemantic is a fluid grid system that is the successor to
+                    the 960 Grid System. It works in a similar way, but instead
+                    of being a set number of columns, it's entirely based on
+                    percentages.<br />
+                    <br />
+                    For instance, if you want a 50% wide column, simply use
+                    class="grid-50". There are grid classes for multiples of
+                    five: 5, 10, 15 … 95, 100. There are also grid classes for
+                    dividing a page into thirds: grid-33 and grid-66.
+                </div>
+                <div class="content2 grid-30">
+                    By using push-x and pull-x classes, you can rearrange the
+                    visual layout of page, without affecting its source order.
+                    While SEO is a bit of a "moving target," this has been known
+                    to help search engines determine the most relevant content
+                    on a page.<br />
+                    <br />
+                    Typically, code at the top of a page is what search engines
+                    tend to focus on the most, and Unsemantic can help to ensure
+                    your source code is geared towards that goal.
+                </div>
+                <div class="content3 grid-30">
+                    Unsemantic was built with extensibility in mind, using Sass.
+                    While you can use the CSS as is, some developers prefer to
+                    use their own class names, and want only the bare minimum
+                    CSS required for a particular page. <br />
+                    <br />To that end, you can use a "silent" Sass approach, and
+                    write your own Sass code to use Unsemantic's base styles.
+                    For instance, there's a placeholder named %grid-container.
+                </div>
+            </div>
+        </section>
+        <!--------------Responsive ---------------------------->
+        <section class="grid-90 responsive">
+            <div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </section>
+        <script src="index.js"></script>
+    </body>
+</html>
